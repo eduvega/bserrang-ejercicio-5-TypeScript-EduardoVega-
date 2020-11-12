@@ -13,7 +13,7 @@ if (Math.random() >= 0.5) {
   c = 100;
 }
 
-function d(param1: number, param2: number): number | String {
+function d(param1: number, param2: number): number | string | boolean {
   if (typeof param2 === "number") {
     return param1 + param2;
   } else {
